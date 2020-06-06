@@ -145,7 +145,7 @@ margin-top: 10px;
     font-size: 2rem;
     color: #ffffff;
     position: absolute;
-    right: 761px;
+    left: : 250px;
     top: 47px;
   }
   /*recuadros*/
@@ -195,11 +195,12 @@ margin-top: 10px;
 
 
 
-/*formulario*/
-/*.contenedores{
-  max-width: 876px;
-  margin: 0 auto;
-}*/
+.formulario{
+  /*background-image: url(../img/fondo-parlantes.png);*/
+  background-position: center center;
+  background-size: cover;
+  scroll-margin-top: 2rem;
+}
 .contenedor-grande{
   background-color: rgb(168, 161, 161);
  
@@ -227,7 +228,7 @@ h3{
   form input[type="text"],
   form input[type="tel"],
   form input[type="email"]{
-    width:218px;
+    width:100%;
     padding:20px 20px;
     border-radius:1px;
     margin:8px 0;
@@ -235,7 +236,7 @@ h3{
   }
 
   .estilotextarea{
-    width:461px;
+    width:100%;
     height: 21rem;
     padding:40px 20px;
     border-radius:1px;
